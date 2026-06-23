@@ -1,0 +1,41 @@
+admin_password: admin
+providers:
+  1:
+    api_key: ''
+    model: glm-4-flash
+    name: zhipu
+  2:
+    api_key: ''
+    model: qwen-turbo
+    name: qwen
+  3:
+    api_key: ''
+    model: ernie-3.5-turbo
+    name: ernie
+    secret_key: ''
+  4:
+    api_key: ''
+    api_secret: ''
+    app_id: ''
+    model: generalv3
+    name: spark
+  5:
+    api_key: ''
+    model: moonshot-v1-8k
+    name: moonshot
+  6:
+    api_key: ''
+    model: doubao-pro-4k
+    name: doubao
+  7:
+    api_key: '' 
+    model: deepseek-chat
+    name: deepseek
+  8:
+    api_key: ''
+    model: Doubao-Seed-2.0-lite
+    name: volcengine
+selected_provider: 8
+server:
+  host: 127.0.0.1
+  port: 8000
